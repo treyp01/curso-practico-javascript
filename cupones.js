@@ -9,7 +9,7 @@ function onclickbuttonPriceCupon(){
 
     const inputcupon=document.getElementById("inputcupon");
     const cuponvalue=inputcupon.value;
-
+    const cupons=["hulk","naruto","batman"]
     let descuento;
     switch(cuponvalue){
         case cupons[0]:
