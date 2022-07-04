@@ -1,3 +1,4 @@
+
 //codigo del cuadrado
 console.group("cuadrados");//eñ group cirve para agrupar uno o varias lineas de codigo en especifico
 console.log("hello world!");
@@ -19,9 +20,12 @@ const baseTriangulo=4;
 const alturaTriangulo =5.5;
 
 const perimertoTriangulo = ladoTriangulo1+ladoTriangulo2+baseTriangulo;
+const areaTriangulo =(baseTriangulo*alturaTriangulo)/2;
 console.log("los lados del triangulo miden: " + ladoTriangulo1 + "cm " + ladoTriangulo2 + "cm " + baseTriangulo +"cm" );
 console.log("la altura del triangulo es de : " + alturaTriangulo);
 console.log("el perimetro del tiangulo es:" + perimertoTriangulo);
+console.log("el area del tiangulo es:" + areaTriangulo);
+
 
 
 console.groupEnd();

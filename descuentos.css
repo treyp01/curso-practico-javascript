@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 5px 5fr;
+    
+}
